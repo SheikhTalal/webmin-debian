@@ -1,8 +1,14 @@
-# webmin-debian
-This Shell will install Webmin Control Panel on your Debian OS
+## webmin-debian
 
-# To install, Run the following:
+# This Shell will install Webmin Control Panel on your Debian OS
 
-curl -O https://raw.githubusercontent.com/SheikhTalal/webmin-debian/master/webmin.sh && chmod +x webmin.sh && sed -i -e 's/\r$//' webmin.sh &&  bash webmin.sh
+## To install, Run the following:
 
-#For more info about: Webmin please visit their website: www.webmin.com
+```bash
+curl -O https://raw.githubusercontent.com/SheikhTalal/webmin-debian/master/webmin.sh
+chmod +x webmin.sh
+sed -i -e 's/\r$//' webmin.sh
+./bash webmin.sh
+```
+
+## For more info about: Webmin please visit their website: www.webmin.com
