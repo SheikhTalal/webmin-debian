@@ -11,4 +11,4 @@ sed -i -e 's/\r$//' webmin.sh
 ./bash webmin.sh
 ```
 
-## For more info about: Webmin please visit their website: www.webmin.com
+## For more info about "Webmin" please visit their website: www.webmin.com
