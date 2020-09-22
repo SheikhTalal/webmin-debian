@@ -8,7 +8,7 @@
 curl -O https://raw.githubusercontent.com/SheikhTalal/webmin-debian/master/webmin.sh
 chmod +x webmin.sh
 sed -i -e 's/\r$//' webmin.sh
-./bash webmin.sh
+./webmin.sh
 ```
 
 ## For more info about "Webmin" please visit their website: www.webmin.com
