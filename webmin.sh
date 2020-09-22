@@ -47,7 +47,9 @@ echo "========================================================="
 echo " Installation is done !!!! Thanks"
 echo " It was very easy process"
 echo " To use Webmin please use your web browser by surfing:"
-read -rp "http://" -e -i "${SERVER_PUB_IP}:10000/" SERVER_PUB_IP
+do
+read -rp "  http://" -e -i "${SERVER_PUB_IP}:10000/" SERVER_PUB_IP 
+done
 echo " For any inquiry please email me on: talal.zaki@gmail.com"
 echo "========================================================="
 echo ""
