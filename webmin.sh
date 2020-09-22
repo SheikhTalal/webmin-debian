@@ -36,6 +36,8 @@ apt-get -y install webmin
 
 clear
 
+iptables -A INPUT -p tcp -m tcp --dport 10000 -j ACCEPT
+
 apt-get --purge autoremove
 
 echo ""
